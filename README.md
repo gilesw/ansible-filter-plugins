@@ -28,3 +28,8 @@ will print out:-
         test2: test2
 
 
+!! Currently failing on ansible 2.2.1.0
+
+Appears to be caused by objects in the hash
+
+https://github.com/ansible/ansible/issues/20253
