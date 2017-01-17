@@ -9,6 +9,6 @@ hashname:
     test: test
     test2: test2
 
-        {{ hashname | root_to_nice_yaml( root=\'hashname\' ) }}
+        {{ hashname | root_to_nice_yaml( root='hashname' ) }}
 
 
